@@ -83,14 +83,11 @@ j= 2, i= 2
 ## 출력:
 
 {{ page.vertical }}
-# Code Block
-
     *
    **
   ***
  ****
 *****
-
 {{ page.horizontal }}
 
 ## 쭌프로 풀이:

@@ -27,14 +27,11 @@ category:   알고리즘
 ## 출력:
 
 {{ page.vertical }}
-# Code Block
-
-   *
-   **
-   ***
-   ****
-   *****
-
+*
+**
+***
+****
+*****
 {{ page.horizontal }}
 
 ## 쭌프로 풀이:

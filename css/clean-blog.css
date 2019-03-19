@@ -68,7 +68,7 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
-.intro-header.container {
+.intro-header .container {
   background-color: rgba(0,0,0,0.4);
 }
 

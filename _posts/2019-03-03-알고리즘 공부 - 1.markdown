@@ -29,11 +29,11 @@ category:   알고리즘
 {{ page.vertical }}
 # Code Block
 
-*
-**
-***
-****
-*****
+   *
+   **
+   ***
+   ****
+   *****
 
 {{ page.horizontal }}
 

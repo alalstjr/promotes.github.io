@@ -7,5 +7,3 @@ subtitle:   Some Short Description of the Visualization
 
 plydata: 	/ply/ChunkColoredWeb.ply
 ---
-
-r

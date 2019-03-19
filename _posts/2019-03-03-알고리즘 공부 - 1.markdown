@@ -26,13 +26,11 @@ category:   알고리즘
 
 ## 출력:
 
-{{ page.vertical }}
 *
 **
 ***
 ****
 *****
-{{ page.horizontal }}
 
 ## 쭌프로 풀이:
 <script src="https://gist.github.com/alalstjr/939674d534195ce653c98097980d065a.js"></script>
@@ -82,13 +80,11 @@ j= 2, i= 2
 
 ## 출력:
 
-{{ page.vertical }}
     *
    **
   ***
  ****
 *****
-{{ page.horizontal }}
 
 ## 쭌프로 풀이:
 

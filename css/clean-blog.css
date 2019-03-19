@@ -68,9 +68,6 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
-.intro-header {
-  background-color: rgba(0,0,0,0.4);
-}
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {

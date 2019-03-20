@@ -25,13 +25,13 @@ category:   알고리즘
 <p>첫째 줄에는 별 1개, 둘째 줄에는 별 2개, N번째 줄에는 별 N개를 찍는 문제</p>
 
 ## 출력:
-{{ page.vertical }}
-*<br>
-**<br>
-***<br>
-****<br>
-*****<br>
-{{ page.horizontal }}
+{% highlight matlab %}
+*
+**
+***
+****
+*****
+{% endhighlight %}
 
 ## 쭌프로 풀이:
 <script src="https://gist.github.com/alalstjr/939674d534195ce653c98097980d065a.js"></script>

@@ -26,11 +26,11 @@ category:   알고리즘
 
 ## 출력:
 {{ page.vertical }}
-<p>*</p>
-<p>**</p>
-<p>***</p>
-<p>****</p>
-<p>*****</p>
+*</br>
+**</br>
+***</br>
+****</br>
+*****</br>
 {{ page.horizontal }}
 
 ## 쭌프로 풀이:

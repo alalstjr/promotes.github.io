@@ -10,8 +10,10 @@ category:   JavaScript
 
 ![Description](https://alalstjr.github.io/promotes.github.io/img/2019-03-03-1.png)
 
+# Javascript란
+
 <p>
-  Javascript란 HTML과 CSS로 만들어진 웹페이지를 동적으로 변경해주는 언어입니다.<br/>
+  HTML과 CSS로 만들어진 웹페이지를 동적으로 변경해주는 언어입니다.<br/>
   간단한 예제가 하나 있습니다.
 </p>
 
@@ -20,9 +22,9 @@ category:   JavaScript
   그리고 과학자는 로봇이 뼈대만 있어 밋밋한 거 같아 CSS라는 조미료를 첨가하여 멋지게 외형을 꾸몄습니다.<br/>
   하지만 과학자는 만족하지 못했습니다.<br/>
   과학자는 생각했습니다. 이렇게 멋지게 만든 로봇이 움직일 수 있다면 더 좋을 텐데..<br/>
-  그리고는 `Javascript` 라는 전기와 프로그래밍을 넣어 로봇을 자기가 원하는데로 움직이게 했습니다.<br/>
-  자신이 만든 로봇이 역동적이게 움직일 수 있게 도와준 것이 `Javascript` 입니다.<br/>
-  위의예제 처럼 `Javascript 는 정적인 것을 동적으로 만들어주는 언어`입니다.<br/>
+  그리고는 Javascript 라는 전기와 프로그래밍을 넣어 로봇을 자기가 원하는데로 움직이게 했습니다.<br/>
+  자신이 만든 로봇이 역동적이게 움직일 수 있게 도와준 것이 Javascript 입니다.<br/>
+  위의예제 처럼 Javascript 는 정적인 것을 동적으로 만들어주는 언어 입니다.<br/>
 </p>
 <p>
   좀 더 자세하게 들어가 보도록 하겠습니다.

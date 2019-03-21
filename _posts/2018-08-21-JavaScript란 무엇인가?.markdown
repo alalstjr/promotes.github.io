@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      알고리즘 공부 - 1
+title:      JavaScript 공부 - 1
 author:     쭌프로
-tags: 		  알고리즘 C언어
-subtitle:   간단한 알고리즘 코딩 연습
-category:   C언어
+tags: 		  JavaScript
+subtitle:   JavaScript 
+category:   JavaScript
 ---
 <!-- Start Writing Below in Markdown -->
 

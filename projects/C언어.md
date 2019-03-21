@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Project 1"
+title: "C언어"
 description: "Description of Project #1"
 header-img: "img/home-bg.jpg"
-category: project1
+category: C언어
 ---

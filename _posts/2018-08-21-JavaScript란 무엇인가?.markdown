@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      JavaScript 공부 - 1
+title:      JavaScript란 무엇인가?
 author:     쭌프로
 tags: 		  JavaScript
-subtitle:   JavaScript 
+subtitle:   JavaScript란 의 기초 
 category:   JavaScript
 ---
 <!-- Start Writing Below in Markdown -->

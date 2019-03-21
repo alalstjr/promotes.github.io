@@ -11,7 +11,7 @@ category:   C언어
 
 ![Description](https://alalstjr.github.io/promotes.github.io/img/2019-03-03-1.png)
 
-<p>알고리즘을 작업한 언어는 C언어 입니다.</p>
+<p>알고리즘을 작업한 언어는 `C언어` 입니다.</p>
 
 <p>
    알고리즘의 공부 기초인 별찍기 입니다.<br/>

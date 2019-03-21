@@ -58,17 +58,19 @@ category:   JavaScript
   인간 언어에 가깝게 2차적으로 번역을 하여 웹상에 보여줍니다.
 </p>
 
-<p>
+{% highlight matlab %}
+
     <script language="javascript"> document.write("JavaScript는 인터프리터형 언어에 가깝다."); </script>
-</p>
+{% endhighlight %}
 
 <p>
   이렇게 작성할경우 작성한 javascript 프로그래밍은 사라지고 작성한 글자 write 만 출력됩니다.
 </p>
 
-<p>
-   위 코드 출력시 : "JavaScript는 인터프리터형 언어에 가깝다."
-</p>
+{% highlight matlab %}
+
+   "JavaScript는 인터프리터형 언어에 가깝다."
+{% endhighlight %}
 
 ![Description](https://alalstjr.github.io/promotes.github.io/img/2018-08-22.png)
 

@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      JAVA로 회원기능 만들기 - 1
+author:     쭌프로
+tags: 		  JAVA
+subtitle:   JAVA를 공부하며 연습으로 만들어본 회원기능 프로그램입니다.
+category:   JAVA
+---
+<!-- Start Writing Below in Markdown -->
+
+![Description](https://alalstjr.github.io/promotes.github.io/img/java_bg.png)
+
+<p>
+  JAVA를 공부하며 생성자와 추상 클래스 그리고 인터페이스가 이해하기 어려워서<br/>
+  복습개념 차 지금까지 공부해온 것을 바탕으로 로그인 회원가입 회원탈퇴 기능을<br/>
+  만들어 볼까 합니다.
+</p>

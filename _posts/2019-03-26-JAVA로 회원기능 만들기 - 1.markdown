@@ -3,7 +3,7 @@ layout:     post
 title:      JAVA로 회원기능 만들기 - 1
 author:     쭌프로
 tags: 		  JAVA
-subtitle:   JAVA를 공부하며 연습으로 만들어본 회원기능 프로그램입니다.
+subtitle:   JAVA를 객체를 활용한 회원기능 프로그램
 category:   JAVA
 ---
 <!-- Start Writing Below in Markdown -->

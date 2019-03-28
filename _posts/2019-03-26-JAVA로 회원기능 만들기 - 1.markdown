@@ -36,21 +36,21 @@ category:   JAVA
 </p>
 
 ## 회원의 인적사항을 관리하는 Class
-
+<br/>
 <script src="https://gist.github.com/alalstjr/9026366431942d873531a3ea566c3539.js"></script>
 <p>
   회원의 <b>자료만</b> 가지고 관리하는 Class 입니다.
 </p>
 
 ## 로그인 로그아웃 회원탈퇴 기능을 담당하는 Class
-
+<br/>
 <script src="https://gist.github.com/alalstjr/7323187859d5e23877386a74a41a6fa3.js"></script>
 <p>
   회원의 상태및 행동을 도와주는 Class 입니다.
 </p>
 
 ## 메뉴를 보여주며 선택지를 주는 Class
-
+<br/>
 <script src="https://gist.github.com/alalstjr/9e15c16c6efbc8c14ef6049b9be3f1eb.js"></script>
 <p>
   유저의 선택지를 보여주는 Class 입니다.<br/>

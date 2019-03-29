@@ -106,7 +106,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="https://alalstjr.github.io/promotes.github.io/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="https://alalstjr.github.io/promote.github.io/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -114,7 +114,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="https://alalstjr.github.io/promotes.github.io/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="https://alalstjr.github.io/promote.github.io/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"

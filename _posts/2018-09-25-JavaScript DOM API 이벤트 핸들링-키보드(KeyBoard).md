@@ -45,7 +45,7 @@ category:   JavaScript
  });
 {% endhighlight %}
 <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-25-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-25-1.png" alt="자바스크립트 출력확인" />
 </div>
  <p>정상적으로 KeyBoardEvent 가 작동되는 것을 확인하실 수 있습니다.</p>
  <p>좀더 KeyBoardEvent 에 대해 알아보기 위해서 keyCode, code, key 도 추가해보도록 하겠습니다.</p>
@@ -59,7 +59,7 @@ category:   JavaScript
 {% endhighlight %}
  <p>이제 화면에서 키보드의 자판을 클릭해보고 결과를 확인해 봅니다.</p>
 <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-25-2.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-25-2.png" alt="자바스크립트 출력확인" />
 </div>
  <p>결과는 사용자가 무엇을 클릭했는지 해당의 keyCode 값 code 값 key 값을 전부 출력하는것을 확인할 수 있었습니다.</p>
 </div>
@@ -68,7 +68,7 @@ category:   JavaScript
  <p>하지만 모든 브라우저가 같은 결과를 보여주는 것은 아닙니다.</p>
  <p>호환성 문제로 브라우저 마다 지원하는 것이 다르기 때문입니다.</p>
 <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-25-3.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-25-3.png" alt="자바스크립트 출력확인" />
 </div>
  <p>익스플로러 에서는 code 값을 지원하지 않아 찾을 수 없다는 표시가 나옵니다.</p>
  <p>익스플로러 뿐만 아니라 파이어 폭스나 크롬의 code 값이 다르게 표시됩니다.</p>
@@ -127,7 +127,7 @@ window.addEventListener('keydown',function(e){
 {% endhighlight %}
  <p>간단하게 만든후에 방향키 오른쪽 왼쪽 스페이스바 를 클릭해 보고 결과를 확인해 봅니다.</p>
  <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-25-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-25-4.png" alt="자바스크립트 출력확인" />
 </div>
  <p>결과는 조건문에 맞춰서 해당키를 눌렀을경우에만 결과값이 출력되는것을 확인하실 수 있습니다.</p>
  <p>이를 활용하여 pink 를 움직여 보도록 하겠습니다.</p>
@@ -222,7 +222,7 @@ function moveLeft() {
 }
 {% endhighlight %}
  <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-25-5.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-25-5.png" alt="자바스크립트 출력확인" />
 </div>
  <p>초기값 0 과 움직였을때 위치값이 출력되는것을 확인하실 수 있습니다.</p>
  <p>이제 움직였을때 위치값의 숫자만 가져와 더해주면 되는 부분만 남았습니다.</p>

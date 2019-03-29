@@ -95,7 +95,7 @@ function sum() {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="{{ site.baseurl }}/static/img/post/2018-09-16-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-09-16-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>이벤트를 핸들링 하기위해서 계산식을 함수 sum 에 담았습니다.</p>
 <p>이벤트를 담은 sum 함수를 실행시키기 위해서는</p>

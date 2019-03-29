@@ -49,7 +49,7 @@ category:   JavaScript
 <div class="box">
   <div class="small-title">HTML 파싱(해석)</div>
   <div class="img-box">
-     <img src="{{ site.baseurl }}/static/img/post/2018-10-01-1.png" alt="자바스크립트 출력확인" />
+     <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-01-1.png" alt="자바스크립트 출력확인" />
   </div>
   <p>HTML 파싱(해석)하는 과정에서 중간에 script 를 해석하며 불러오는 시간으로</p>
   <p>HTML 파싱(해석)이 늦어지는 현상을 해결하려면 우선</p>
@@ -62,7 +62,7 @@ window.addEventListener('load',function(){
 {% endhighlight %}
   <p>결과를 확인하기 전에 크롬 개발자 환경 창에서 Network클릭후 Disable cachi 체크후 새로 고침을 합니다.</p>
   <div class="img-box">
-     <img src="{{ site.baseurl }}/static/img/post/2018-10-01-1.png" alt="자바스크립트 출력확인" />
+     <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-01-1.png" alt="자바스크립트 출력확인" />
   </div>
   <p>결과는 모든 HTML의 파싱으로 이미지와 CSS, script 를 불러오는데 총 69밀리초가 소비되었습니다.</p>
   <p>(이미지가 더많거나 script 사이즈가 크면 클수록 load 시간은 길어집니다.)</p>
@@ -80,7 +80,7 @@ window.addEventListener('load',function(){
 <div class="box">
 	<p>DOMContentLoaded 란?</p>
 	<div class="img-box">
-	   <img src="{{ site.baseurl }}/static/img/post/2018-10-01-2.png" alt="자바스크립트 출력확인" />
+	   <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-01-2.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>저의 블로그의 콘솔 Network 를 통해서 DOMContentLoaded 를 확인해보겠습니다.</p>
 	<p>첫번째 WaterFall 부분을 확인하시면 파란색 줄로 그어진곳을 경계로 왼쪽이 DOMContentLoaded 부분입니다.</p>
@@ -125,7 +125,7 @@ window.addEventListener('load',function(){
 	<p>head 에 위치해도 Lose Time를 줄이는 방법이 있습니다.</p>
 	<div class="small-title">script defer 속성 - 연기시키다.</div>
 	<div class="img-box">
-	   <img src="{{ site.baseurl }}/static/img/post/2018-10-01-4.png" alt="자바스크립트 출력확인" />
+	   <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-01-4.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>웹 로드 시간에 스크립트 다운로드 요청을 합니다.</p>
 	<p>defer 속성으로 인해 parsing(해석)을 멈추지않고 계속 진행하며 내려갑니다.</p>
@@ -143,7 +143,7 @@ window.addEventListener('load',function(){
 	  <p>동기보다 복잡하지만 결과가 주어지는데 시간이 걸리더라도 그 시간 동안 다른 작업을 할 수 있으므로 자원을 효율적으로 사용</p>
 	</div>
 	  <div class="img-box">
-	     <img src="{{ site.baseurl }}/static/img/post/2018-10-01-5.png" alt="자바스크립트 출력확인" />
+	     <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-01-5.png" alt="자바스크립트 출력확인" />
 	  </div>
 	  <p>비동기 속성으로 인해 웹페이지가 불러와 지는 동안에 script 도 같이 불러옵니다.</p>
 </div>

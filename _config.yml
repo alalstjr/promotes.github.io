@@ -7,15 +7,15 @@ url: "https://alalstjr.github.io"
 
 
 # Secondary Parameters
-baseurl: "/promotes.github.io"
+baseurl: "/promote.github.io"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /promotes.github.io/img/logos/promotes.github.io-New-Logo-Inverted.png
+logo: /promote.github.io/img/logos/promote.github.io-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  alalstjr
-project_repository: promotes.github.io
-disqus_shortname: promotes.github.io
+project_repository: promote.github.io
+disqus_shortname: promote.github.io
 g-analytics: UA-75881392-1
 altmetric: true
 
@@ -41,7 +41,7 @@ defaults:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'https://alalstjr.github.io/promotes.github.io/'
+  siteurl: 'https://alalstjr.github.io/promote.github.io/'
   ispp: true
   media: 'img'
   metadata:

@@ -56,12 +56,12 @@ var new_val = blog;
 <p>blog 의 정보를 담고있는 객체를 변수 new_val 를 만들어 할당했기 때문에</p>
 <p>변수 blog는 객체를 가리키고 새로 만들어진 변수 new_val 도 blog의 객체를 가리킵니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-07-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-07-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>검증 방법으로 new_val 객체를 변경했을때 blog의 객체또한 값이 동시에 바뀌는지 확인해보면 됩니다.</p>
 <p>new_val 객체의 name 값을 '쭌프로의 열공가능?' 으로 바꿔보도록 하겠습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-07-2.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-07-2.png" alt="자바스크립트 출력확인" />
 </div>
 <p>값이 동일하게 바뀌는 것을 확인하실 수 있습니다.</p>
 </div>
@@ -71,7 +71,7 @@ var new_val = blog;
   <p>변수 val 값에 blog.name 값을 담았습니다.</p>
   <p>이런경우 blog는 객체이지만 name 값에 담긴 속성값은 string 인 불변 데이터값 입니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-07-3.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-07-3.png" alt="자바스크립트 출력확인" />
 </div>
   <p>변수 val 값을 변경하더라도 blog 값은 변경되지 않습니다.</p>
 </div>
@@ -80,7 +80,7 @@ var new_val = blog;
   <p>객체, 배열, 함수도 값을 복사할 수 있습니다.</p>
   <p>배열의값을 복사하는 방법으로 for문을 활용하는것 입니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-10-07-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-07-4.png" alt="자바스크립트 출력확인" />
 </div>
   <p>for문으로 만들어진 배열을 담은 변수와 기존의 변수를 비교했을때 false 로 둘이 다르다는것을 확인함으로서</p>
   <p>값이 복사되어 만들어진것을 확인할 수 있습니다.</p>

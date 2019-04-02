@@ -9,7 +9,7 @@ category:   C언어
 <!-- Start Writing Below in Markdown -->
 
 
-![Description](https://alalstjr.github.io/promotes.github.io/img/2019-03-03-1.png)
+![Description](https://alalstjr.github.io/promote.github.io/img/2019-03-03-1.png)
 
 <p>알고리즘을 작업한 언어는 `C언어` 입니다.</p>
 

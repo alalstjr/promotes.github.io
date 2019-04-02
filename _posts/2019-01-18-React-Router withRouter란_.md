@@ -20,7 +20,7 @@ category:   JavaScript ReactJS
   <p>이부분에서 해당 링크의 pathname 을 가져와 조건문으로 비교해야하는 부분이 있었습니다.</p>
   <p>이부분을 최신버전(React-Router-v4) 버전으로 적용하여 실행하면 pathname 을 찾을 수 없다는 문구가 나옵니다.</p>
   <div class="img-box">
-    <img src="https://alalstjr.github.io/promotes.github.io/img/2019-1-18-1.png" alt="자바스크립트 출력확인" />
+    <img src="https://alalstjr.github.io/promote.github.io/img/2019-1-18-1.png" alt="자바스크립트 출력확인" />
   </div>
   <p>구글링을 찾아본 결과</p>
   <div class="pro-txt">

@@ -36,16 +36,16 @@ category:   JavaScript
 	  console.log(boxs);
 	{% endhighlight %}
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-1.png" alt="자바스크립트" />
+	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-1.png" alt="자바스크립트" />
 	</div>
 	<p>HTMLCollection(집합객체) div 의 각자의 정보를 가진것을 한번에 담고있습니다.</p>
 	<p>화살표를 눌러 더 자세하게 들어가면 document.getElementsByTagName('div')에 대한 <strong>더많은 정보</strong>를 확인하실 수 있습니다.</p>
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-2.png" alt="자바스크립트" />
+	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-2.png" alt="자바스크립트" />
 	</div>
 	<p>나열된 정보를 빼오는 방법은 <strong>item()</strong> 을 활용하여 가져올 수 있습니다.</p>
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-3.png" alt="자바스크립트" />
+	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-3.png" alt="자바스크립트" />
 	</div>
 	<p>혹은 boxs[0] 로도 똑같은 결과를 얻으실 수 있습니다.</p>
 	<p>수많은 태그가 존재하면 <strong>원하는 값을 찾기 어려울 수 있으니 많이 쓰는 방법은 아닙니다.</strong></p>
@@ -57,7 +57,7 @@ category:   JavaScript
 <div class="small-title">2. id 속성 값으로 선택하는 방법</div>
 	<p> > document.getElementById('ID');</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-4.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-4.png" alt="자바스크립트" />
 </div>
 <strong>고유의 ID 값</strong>으로 값을 가져올 수 있습니다.
 
@@ -78,12 +78,12 @@ category:   JavaScript
 <p>이렇게 작성하여 div.box 안에있는 span 값을 가져오려고 합니다.</p>
 <p>하지만 결과는 </p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-5.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-5.png" alt="자바스크립트" />
 </div>
 <p>오류 문구가 출력됩니다. </p>
 <p>이유는 box 안에있는 <strong>div 는 여러개(복수)</strong> 이기때문에 <strong>특정 오브젝트를 지정</strong>해주어야만 찾을 수 있습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-6.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-6.png" alt="자바스크립트" />
 </div>
 <p>이런식으로 item() 을 활용하여 특정 순서를 지정해주면 값을 가져오는것을 확인하실 수 있습니다.</p>
 </div>
@@ -92,7 +92,7 @@ category:   JavaScript
 <div class="small-title">3. class 속성 값으로 선택하는 방법</div>
 document.getElementsByClassName('class') 
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-7.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-7.png" alt="자바스크립트" />
 </div>
 <p>document 문서내의 찾는 class 의 목록을 불러옵니다. </p>
 </div>
@@ -113,7 +113,7 @@ document.querySelector('tag');
  console.log(box);
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-8.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-8.png" alt="자바스크립트" />
 </div>
 <p>이처럼 직접 css 처럼 경로를 지정해줘서 찾을수도 있습니다.</p>
 <p>document.querySelector('.box:nth-child(2) span');</p>
@@ -124,7 +124,7 @@ document.querySelector('tag');
 <p> 을 활용하여 원하는 값을 가져올 수 있습니다.</p>
 <p> 가져온 결과를 보면 다른 값들하고는 다르게 표시됩니다.</p>
  <div class="img-box">
-  <img src="https://alalstjr.github.io/promotes.github.io/img/2018-08-29-9.png" alt="자바스크립트" />
+  <img src="https://alalstjr.github.io/promote.github.io/img/2018-08-29-9.png" alt="자바스크립트" />
 </div>
 <p>이번에는 HTMLCollection 이 아닌 NodeList 를 출력하는것을 확인했습니다.</p>
 <p>따로 달라진것은 없습니다.</p>

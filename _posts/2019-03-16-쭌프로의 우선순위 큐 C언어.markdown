@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      우선순위 큐 C언어
+author:     쭌프로
+tags: 		  C언어
+subtitle:   C언어로 표현하는 우선순위 큐
+category:   C언어
+---
+<!-- Start Writing Below in Markdown -->
+
+![Description](https://alalstjr.github.io/promote.github.io/img/c_bg.png)
+
+<p>
+  우선순위 큐가 어떻게 작동하며 C언어로 구현하는지 <br/>
+  개인적으로 공부하여 작성한 공부 노트입니다.
+</p>
+
+# 우선순위 큐란?
+

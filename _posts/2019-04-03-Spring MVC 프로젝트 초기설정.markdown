@@ -11,3 +11,8 @@ category:   JAVA SPRING
 ![Description](https://alalstjr.github.io/promote.github.io/img/java_bg.png)
 
 음 좀더 완벽하게 data까지 불러올때 작성해야겠다.
+
+# 1. STS 4
+STS 4 설치를 진행합니다.
+https://spring.io/tools
+

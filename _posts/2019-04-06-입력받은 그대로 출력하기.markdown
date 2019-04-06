@@ -15,7 +15,7 @@ category:   알고리즘
 
 ## 백준의 알고리즘 문제 - 입력받은 그대로 출력하기
 
-출처 : https://www.acmicpc.net/problem/11719
+출처 : <a href="https://www.acmicpc.net/problem/11719">https://www.acmicpc.net/problem/11719</a>
 
 ## 문제:
 
@@ -45,6 +45,43 @@ Baekjoon
 Baekjoon     
    Online Judge    
 {% endhighlight %}
+
+<p>
+  문제는 보기와 같이 문자 외에도 엔터도 입력받고 공백 띄어쓰기 스페이스바 값도 입력받아 출력합니다. <br/>
+  각 줄에는 100 자 이상 들어올 수 없다.
+</p>
+
+<p>
+  최대 100줄이면 너무 많기에 저는 5줄 까지만 입력 받도록 했습니다. <br/>
+  (문제에서 100줄로 이루어져 있다해서 100번 입력 받게하는것이 맞는지 의문입니다. 문제 이해도가 부족한것이 느껴졌습니다.)
+</p>
+
+{% highlight matlab %}
+
+#include <stdio.h>
+
+int main(void) 
+{
+	char str[5];
+
+	for (int i = 0; i < 5; i++) 
+	{
+		scanf_s("%s", str, sizeof(str));
+
+		printf_s("%s", str);
+
+		printf_s("\n");
+	}
+
+	system("pause");
+	return 0;
+}
+
+{% endhighlight %}
+
+<p>
+  
+</p>
 
 <p>
   입력을 받아야 하므로 scanf_s를 사용하며 입력 받은 값을 출력해야 하므로 printf_s 를 활용했습니다.

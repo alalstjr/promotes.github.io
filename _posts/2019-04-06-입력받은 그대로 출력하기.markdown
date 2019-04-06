@@ -55,7 +55,7 @@ Baekjoon
   최대 100줄이면 너무 많기에 저는 5줄 까지만 입력 받도록 했습니다. <br/>
   (문제에서 100줄로 이루어져 있다해서 100번 입력 받게하는것이 맞는지 의문입니다. 문제 이해도가 부족한것이 느껴졌습니다.)
 </p>
-<p>
+
 {% highlight matlab %}
 
 #include <stdio.h>
@@ -66,20 +66,20 @@ int main(void)
 
 	for (int i = 0; i < 5; i++) 
 	{
-		scanf_s("%s", str, sizeof(str));
+		scanf_s(＂%s＂, str, sizeof(str));
 
-		printf_s("%s", str);
+		printf_s(＂%s＂, str);
 
-		printf_s("\n");
+		printf_s(＂\n＂);
 	}
 
-	system("pause");
+	system(＂pause＂);
 	return 0;
 }
 
 {% endhighlight %}
 
-
+<p>
   
 </p>
 

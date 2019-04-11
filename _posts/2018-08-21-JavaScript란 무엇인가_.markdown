@@ -8,7 +8,7 @@ category:   JavaScript
 ---
 <!-- Start Writing Below in Markdown -->
 
-![Description](https://alalstjr.github.io/promotes.github.io/img/2019-03-03-1.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-03-03-1.png)
 
 # Javascript란
 

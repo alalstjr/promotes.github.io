@@ -87,7 +87,7 @@ category:   JavaScript
  window.alert("안녕하세요 Min Seock 블로그입니다.")
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-01-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-01-1.png" alt="자바스크립트 출력확인" />
 </div>
 
 <div class="small-title">4. window.confirm() 메소드는 옵션인 메세지와 확인과 취소 버튼으로 구성된 모달창을 화면에 보여줍니다. </div>
@@ -95,7 +95,7 @@ category:   JavaScript
  window.confirm("안녕하세요 Min Seock 블로그입니다.")
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-01-2.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-01-2.png" alt="자바스크립트 출력확인" />
 </div>
 <p>모달창의 확인, 취소 선택에 따라 저장되는 값도 다릅니다. </p>
 <p>확인을 선택할경우 <strong>true</strong> 값이 저장되고</p>
@@ -107,7 +107,7 @@ category:   JavaScript
  window.prompt("안녕하세요 Min Seock 블로그입니다.")
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-01-3.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-01-3.png" alt="자바스크립트 출력확인" />
 </div>
 <p>prompt() 메소드는 변수에 담아 사용할경우 사용자가 입력한 값을 저장하여 사용할 수 있습니다.</p>
 </div>
@@ -151,7 +151,7 @@ function name(){
  }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-01-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-01-4.png" alt="자바스크립트 출력확인" />
 </div>
 <p>함수에 이름이 존재하지않아 <strong>오류가 발생</strong>합니다.</p>
 
@@ -241,7 +241,7 @@ function name(){
  // 둘은 같은 결과가 출력 됩니다.
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-01-5.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-01-5.png" alt="자바스크립트 출력확인" />
 </div>
 
 <p>함수를 하나 만들어 놓으면 다음에 사용할때 간단하게 $ 만 붙여 전달인자만 작성해 주면</p>

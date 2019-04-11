@@ -8,7 +8,7 @@ category:   JAVA
 ---
 <!-- Start Writing Below in Markdown -->
 
-![Description](https://alalstjr.github.io/promote.github.io/img/java_bg.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
 
 <p>
   JAVA를 공부하며 클레스와 생성자의 개념을 복습하고자<br/>

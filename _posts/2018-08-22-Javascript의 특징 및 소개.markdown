@@ -72,7 +72,7 @@ category:   JavaScript
    "JavaScript는 인터프리터형 언어에 가깝다."
 {% endhighlight %}
 
-![Description](https://alalstjr.github.io/promote.github.io/img/2018-08-22.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2018-08-22.png)
 
 <p>
   그러다 보니 컴파일형언어 보다는 느린 언어라는 것을 알아야 합니다.

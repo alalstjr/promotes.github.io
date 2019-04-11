@@ -42,7 +42,7 @@ var select = box.querySelector('.select');
 console.log(select);
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-02-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-02-1.png" alt="자바스크립트 출력확인" />
 </div>
   <p>원하는 값을 불러오는것을 확인하실 수 있었습니다.</p>
   <p>다만 매번 원하는 값을 불러올때마다 코드를 길게 작성하여 똑같은것을 반복하여 작성할 필요가 있는지 의문이 듭니다.</p>

@@ -49,7 +49,7 @@ category:   JavaScript
 <p>다음 행동을 하기위해서 필요한 li 리스트를 _hc.listLi 변수에 담았습니다.</p>
 <p>console.log 로 잘 담겨져 있는지 확인해 보겠습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>li 리스트를 전부 가져오는 것을 확인하였습니다.</p>
 <p>저는 일곱개의 li 리스트중에서 세번째인 active 클래스만 가져올것입니다.</p>
@@ -75,7 +75,7 @@ for(var i = 0; i < _hc.listLi.length; ++i){
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-2.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-2.png" alt="자바스크립트 출력확인" />
 </div>
 <p>클릭한 대상만 this로 잘 가져오는 것을 확인할 수 있습니다.</p>
 <p>[의문] 왜 for문을 사용하여 addEventListener 를 사용했을까? 라는 생각이 듭니다.</p>
@@ -83,7 +83,7 @@ for(var i = 0; i < _hc.listLi.length; ++i){
 <p>클릭한 document.getElementsByTagName('li') 를 가져오는거 아닌가? 라는 생각이 들었습니다.</p>
 <p>반복문 for문 제거한후 실행해 보겠습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-3.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-3.png" alt="자바스크립트 출력확인" />
 </div>
 <p>결과는 typeError인  _hc.listLi.addEventListener is not a function 오류를 출력합니다.</p>
 <p>getElementsByTagName 메소드 는 단일 요소가 아닌 노드의 콜렉션을 리턴합니다.</p>
@@ -114,7 +114,7 @@ for(var i = 0; i < _hc.listLi.length; ++i){
 {% endhighlight %}
 <p>실행하여 결과를 확인해보면</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-4.png" alt="자바스크립트 출력확인" />
 </div>
 <p>클릭한 대상의 DOMTokenList 를 확인할 수 있습니다.</p>
 <p>DOMTokenList에서 세번째 li 만 active 클레스를 배열로 가지고 있습니다.</p>
@@ -137,7 +137,7 @@ for(var i = 0; i < _hc.listLi.length; ++i){
 }	
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-5.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-5.png" alt="자바스크립트 출력확인" />
 </div>
 <p>if( this.classList == 'active' ) 조건문을 활용하여 클릭한 대상의 classList 배열의</p>
 <p>active 클래스 존재 유무를 파악하여 참이면 참의 값을 거짓이면 거짓의 값을 출력하였습니다.</p>
@@ -174,7 +174,7 @@ for(var i = 0; i < _hc.listLi.length; ++i){
 {% endhighlight %}
 <p>세번째 li의 클래스가 여러개가 있을경우 위 코드를 실행하면</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-10-31-5.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-10-31-5.png" alt="자바스크립트 출력확인" />
 </div>
 <p>세번째에 active 클래스가 있음에도 조건문에서는 거짓으로 판별하여 넘겨버립니다.</p>
 <p>classList 에서 active 클래스를 못찾는 이유는 classList의 클래스는 배열로 저장되어 있기 때문입니다.</p>

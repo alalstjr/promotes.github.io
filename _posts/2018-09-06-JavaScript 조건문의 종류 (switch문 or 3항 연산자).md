@@ -51,7 +51,7 @@ category:   JavaScript
 <p>아이스 크림을 사려고 편의점에 들어갑니다.<p/>
 <p>아이스 크림을 변수 buy 라고 생각하고 if문 조건문으로 물건을 찾아보겠습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>이렇게 결과가 '아이스크림' 이라는 값을 출력하는 과정에</p>
 <p>2번의 if문을 걸쳐서 찾습니다.</p>
@@ -96,13 +96,13 @@ category:   JavaScript
 <p>그럼 if문 처럼 위부터 마지막까지 하나하나 비교하지않고 이미 지정되어있는 case를 보고 바로 값을 출력합니다.</p>
 <p>case 가 치약인 조건을 찾고 해당 조건에 출력문을 출력합니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
 </div>
 
 <p>그리고 제어문(break) 를 통해 다음 출력을 막아줍니다.</p>
 <p>만약 제어문(break) 를 사용하지 않을경우</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>만약에 제어문(break) 이 없다면 해당 출력문부터 아래 출력문까지 전부 출력되기에 꼭 막아주어야 합니다.</p>
 
@@ -129,7 +129,7 @@ var val = if(ture) = {'출력해라'};
 	<p>var val 이라는 변수안에 if Block 문을 할당 하였습니다.</p>
 	<p>하지만</p>
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-2.png" alt="자바스크립트 출력확인" />
+	  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-2.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>결과는 오류가 나옵니다. 변수에는 if Block 문을 할당할 수 없기 때문입니다.</p>
 	
@@ -138,7 +138,7 @@ var val = true ? '참입니다.' : '거짓입니다.';
 {% endhighlight %}
 	<p>3항 연산자는 정상적으로 변수에 할당할 수 있기때문에</p>
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-3.png" alt="자바스크립트 출력확인" />
+	  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-3.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>조건값이 true 인 '참입니다.' 가 정상적으로 출력하는것을 볼 수 있었습니다.</p>
 	<p>3항 연산자를 사용하는 이유는 무엇일까요? </p>
@@ -171,7 +171,7 @@ var val_3 = false;
 var val_1 = false ? '참입니다.' : val_2 ? '두번째 조건' : val_3 ? '세번째 조건' : '거짓입니다.';
 {% endhighlight %}
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-4.png" alt="자바스크립트 출력확인" />
+	  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-4.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>위 결과는 세번째 조건이 false 이기때문에 거짓으로 '거짓입니다.' 를 출력 하였습니다.</p>
 	<p>이렇게 3항 연산자 안에 조건문을 계속하여 추가할 수 있습니다.</p>
@@ -207,7 +207,7 @@ var data_1 = val_1 && console.log('참 입니다.'); // val_1 값이 참일때 �
 var data_2 = val_2 || console.log('참 입니다.'); // val_1 값이 거짓일때 실행
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-5.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-5.png" alt="자바스크립트 출력확인" />
 </div>
 <p>첫번째 val_1 값이 'true' 이므로 && 조건식에 맞음으로서 console.log('참 입니다.') 를 출력합니다.</p>
 <p>&& 일때는 값이 참일 경우에만 값을 출력합니다.</p>
@@ -229,7 +229,7 @@ console.log(date);
 // || 논리합 연산자는 false 인것만 조건식에 맞습니다.
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-06-6.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-06-6.png" alt="자바스크립트 출력확인" />
 </div>
 <p>if Block문을 date 변수에 논리곱(&&) 과 논리합(||) 연산자를 할당하는방법으로 변환해보았습니다.</p>
 <p>위에 식에서 val && '값입니다.'; 를 변수 val 값에 할당하여 사용했는데</p>

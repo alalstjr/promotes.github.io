@@ -49,7 +49,7 @@ while( array_list.length ) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-6.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-6.png" alt="자바스크립트 출력확인" />
 </div>
   <p>결과를 확인해 보면 첫번째 반복 조건문이 array_list.length 가 5 참 이므로</p>
   <p>array_list.pop() 메서드를 실행하여 맨뒤 배열을 삭제 합니다.</p>
@@ -92,7 +92,7 @@ while(while_if) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-7.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-7.png" alt="자바스크립트 출력확인" />
 </div>
 <p>while 문 중간 조건문 count 가 3 과 7 이 해당되어 있는 부분은 continue 건너뛰어서</p>
 <p>출력 되지 않는 것을 확인할 수 있습니다.</p>
@@ -125,7 +125,7 @@ while(while_if) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-8.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-8.png" alt="자바스크립트 출력확인" />
 </div>
 <p>count 값이 5 인 조건에 해당되어 제어문 break 으로 인해 반복문을 빠져 나오는것을</p>
 <p>확인하실 수 있습니다.</p>
@@ -165,7 +165,7 @@ while(while_if) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-9.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-9.png" alt="자바스크립트 출력확인" />
 </div>
 <p>조건문 innerCount === limit_count / 2 으로 인해 innerCount값이 4일때 loopCount 해당되는 반복문을 중단시킵니다.</p>
 <p>그래서 결과값이 innerCount 3 까지만 출력되고 반복문이 넘어가는 것입니다.</p>
@@ -201,7 +201,7 @@ while (i < 10) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-10.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-10.png" alt="자바스크립트 출력확인" />
 </div>
 <p>위 while문을 for문으로 바꾸어 보겠습니다.</p>
 {% highlight javascript %}
@@ -210,7 +210,7 @@ for (var i = 0; i < 10; ++i){
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-10.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-10.png" alt="자바스크립트 출력확인" />
 </div>
 <p>결과는 동일하게 출력 됩니다.</p>
 <p>변수 선언구간이 구분되어있는 while문</p>
@@ -232,7 +232,7 @@ while ( i < 10 ) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-11.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-11.png" alt="자바스크립트 출력확인" />
 </div>
   <p>중복된 for문</p>
 {% highlight javascript %}
@@ -244,7 +244,7 @@ for ( var i = 0; i < 10; ++i ) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-11.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-11.png" alt="자바스크립트 출력확인" />
 </div>
   <p>둘의 결과는 동일합니다.</p>
 <p>for문을 중첩되지 않고 사용할 수 있는 방법도 있습니다.</p>
@@ -273,7 +273,7 @@ outFor:for ( var i = 0; i < 10; ++i ) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-12.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-12.png" alt="자바스크립트 출력확인" />
 </div>
   <p>label 제어문 으로 인해 j값 4 만 출력되는 것을 확인하실 수 있습니다.</p>
 </div>
@@ -297,7 +297,7 @@ outFor:for ( var i = 0; i < 10; ++i ) {
 var object_box = {
   name:'쭌프로',
   type:'blog',
-  localhost:'https://alalstjr.github.io/promote.github.io/'
+  localhost:'https://alalstjr.github.io/jjunpro.github.io/'
 }
 {% endhighlight %}
   <p>하나의 객체를 생성하고 객체 안에는 블로그의 정보를 담았습니다.</p>
@@ -308,7 +308,7 @@ var object_box = {
 var object_box = {
   name:'쭌프로',
   type:'blog',
-  localhost:'https://alalstjr.github.io/promote.github.io/'
+  localhost:'https://alalstjr.github.io/jjunpro.github.io/'
 }
 
 for (var property in object_box) {
@@ -316,12 +316,12 @@ for (var property in object_box) {
 }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-13.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-13.png" alt="자바스크립트 출력확인" />
 </div>
 <p>property 값(key)을 출력하는것을 확인하실 수 있습니다.</p>
 <p>value 값을 얻고 싶다면 object_box[property] 로 확인할 수 있습니다.</p>
 <p>for ~ in 문의 활용 으로 in 을 활용하여 객체의 속성값의 존재 유무를 확인할 수도 있습니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-25-14.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-25-14.png" alt="자바스크립트 출력확인" />
 </div>
 </div>

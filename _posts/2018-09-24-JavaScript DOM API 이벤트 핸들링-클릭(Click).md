@@ -16,7 +16,7 @@ category:   JavaScript
 {% highlight javascript %}
   // HTML
   <a href="#" class="event">
-	<img src="https://alalstjr.github.io/promote.github.io/img/2018-09-16-3.png" alt="자바스크립트 연습"/>
+	<img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-16-3.png" alt="자바스크립트 연습"/>
   </a>
 	
   // CSS
@@ -46,7 +46,7 @@ category:   JavaScript
 <p>미리 완성 된 예제를 통해 확인해 보도록 하겠습니다.</p>
 <p>완성된 예제에서 관리자 창을 열어서 Network 클릭후 불러온 파일리스트 를 확인하시면 파란선을 넘은 파일 3개가 보입니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-24-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-24-1.png" alt="자바스크립트 출력확인" />
 </div>
 <p>파란선을 넘어서 불러온 파일이 웹이 로딩이 된후 불러온 파일이란것을 알려주는 것 입니다.</p>
 <p>미리 파일을 로드 시킴으로서 깜빡임 오작동없이 바로 이미지 교체를 볼 수 있는것입니다.</p>
@@ -56,11 +56,11 @@ var img ;
 var sound ;
 var lazyload_urls = [
   // 처음 클릭전의 이미지
-  'https://alalstjr.github.io/promote.github.io/static/img/post/2018-09-16-3.png',
+  'https://alalstjr.github.io/jjunpro.github.io/static/img/post/2018-09-16-3.png',
   // 클릭 후의 변화 이미지
-  'https://alalstjr.github.io/promote.github.io/static/img/post/2018-09-16-2.png',
+  'https://alalstjr.github.io/jjunpro.github.io/static/img/post/2018-09-16-2.png',
   // 클릭시 사운드
-  'https://alalstjr.github.io/promote.github.io/static/media/switch.mp3'
+  'https://alalstjr.github.io/jjunpro.github.io/static/media/switch.mp3'
 ];
 lazyload_urls.forEach(function(url, index){
   var max = lazyload_urls.length - 1;
@@ -99,7 +99,7 @@ lazyload_urls.forEach(function(url, index){
   }
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-16-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-16-4.png" alt="자바스크립트 출력확인" />
 </div>
 <p>클레스 명이 event 인 click 을 클릭했을때 정상적으로 click() 함수가 실행되며 동시에 연결된</p>
 <p>함수 toggle_event() 가 실행되어 console.log를 정상적으로 출력하는것을 확인할 수 있었습니다.</p>
@@ -126,7 +126,7 @@ function toggle_event(e) {
   // element의 속성은 e 의 target이벤트 안에 있습니다.
   var target = e.target;
   // element 속성의 src 를 target을 활용해 변경합니다.
-  target.src = 'https://alalstjr.github.io/promote.github.io/img/2018-09-16-2.png';
+  target.src = 'https://alalstjr.github.io/jjunpro.github.io/img/2018-09-16-2.png';
 }
 {% endhighlight %}
 <p>이제 이미지가 변경 되는것 까지 확인하였습니다.</p>
@@ -144,9 +144,9 @@ function toggle_event(e) {
   
   // 초글 (on/off) 코드분기
   if(click_state){
-	  target.src = 'https://alalstjr.github.io/promote.github.io/static/img/post/2018-09-16-2.png';
+	  target.src = 'https://alalstjr.github.io/jjunpro.github.io/static/img/post/2018-09-16-2.png';
   } else {
-	  target.src = 'https://alalstjr.github.io/promote.github.io/static/img/post/2018-09-16-3.png';
+	  target.src = 'https://alalstjr.github.io/jjunpro.github.io/static/img/post/2018-09-16-3.png';
   }
   // 클릭한 상태 변경 click_state 의 값을 반대로 스위치 변경
   // 참일경우 거짓으로 거짓일경우 참으로

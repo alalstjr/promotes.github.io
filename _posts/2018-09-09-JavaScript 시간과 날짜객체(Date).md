@@ -74,7 +74,7 @@ category:   JavaScript
 	// 지금까지 지나온 시간
 {% endhighlight %}
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-1.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-1.png" alt="자바스크립트 출력확인" />
 </div>
 </div>
 <div class="box">
@@ -118,7 +118,7 @@ category:   JavaScript
 	);
 {% endhighlight %}  
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-2.png" alt="자바스크립트 출력확인" />
+	  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-2.png" alt="자바스크립트 출력확인" />
 	</div>
 </div>
 
@@ -127,7 +127,7 @@ category:   JavaScript
 	console.log(new Date(2018,1,20))
 {% endhighlight %}
 	<div class="img-box">
-	  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-3.png" alt="자바스크립트 출력확인" />
+	  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-3.png" alt="자바스크립트 출력확인" />
 	</div>
 	<p>직접 날짜 객체를 활용하여 날짜를 만들 수 있습니다.</p>
 </div>	
@@ -237,7 +237,7 @@ category:   JavaScript
 {% endhighlight %}
 	
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-4.png" alt="자바스크립트 출력확인" />
 </div>
 
 <p>요일 같은 경우에는 swicth 문을 활용하여 숫자로 출력되는것을 </p>
@@ -275,7 +275,7 @@ category:   JavaScript
 {% endhighlight %}
 <p>우선 보여지는 모습을 간단하게 꾸며줍니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-6.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-6.png" alt="자바스크립트 출력확인" />
 </div>
 <p>지금은 아무것도 없는 모습입니다.</p>
 
@@ -291,7 +291,7 @@ category:   JavaScript
 {% endhighlight %}
 <p>함수 $ 를 불러옵니다.</p>
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-4.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-4.png" alt="자바스크립트 출력확인" />
 </div>
 	
 {% highlight javascript %}
@@ -328,7 +328,7 @@ function viewDate() {
 </div>
 
 <div class="img-box">
-  <img src="https://alalstjr.github.io/promote.github.io/img/2018-09-09-7.png" alt="자바스크립트 출력확인" />
+  <img src="https://alalstjr.github.io/jjunpro.github.io/img/2018-09-09-7.png" alt="자바스크립트 출력확인" />
 </div>
 <p>이렇게 아무것도 없던 watch 박스 안의 내용을 채워 넣었습니다.</p>
 <p>이제 이것을 새로고침으로 가 아닌 실시간으로 바뀔수 있도록 하겠습니다.</p>

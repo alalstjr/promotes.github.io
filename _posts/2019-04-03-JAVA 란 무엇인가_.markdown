@@ -54,5 +54,5 @@ category:   JAVA
 
 ## JAVA API DOCUMENT 문서 링크
 
-<a href="https://docs.oracle.com/en/java/javase/12/docs/api/index.html">Java 12 JDK API 문서 링크입니다.</p>
+<a href="https://docs.oracle.com/en/java/javase/12/docs/api/index.html">Java 12 JDK API 문서 링크입니다.</a>
 

@@ -73,8 +73,6 @@ category:   JAVA
   5) <b>멀티쓰레드(Multi-thread)</b>를 지원
 </p>
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-04-04-1.png)
-
 <p>
   2) Java 코드 동작순서 <br/>
   - Java Source -> Java Compiler -> Java Byte Code(코드를 기계어로 바꿔주는 과정) -> 운영체제 <br/>

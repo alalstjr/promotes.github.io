@@ -36,9 +36,21 @@ method(동작)은 어떠한 특정 작업을 수행하기 위한 명령문의 �
 2. 주소값에 의한 호출(Call By Reference) - 데이터 참조
 <script src="https://gist.github.com/alalstjr/9f5bd9e56b7dcd5d02a95784adc2bc0b.js"></script>
 
+## 가변형 매개변수
+
+형식 매개변수와 실매개변수의 형과 개수는 항상 일치해야하지만
+<script src="https://gist.github.com/alalstjr/71201d0869ca5c048b9819c8fb18cbfe.js"></script>
+
+실 매개변수의 개수가 상황에 따라 가변적인 경우가 발생할 수 있다.
+
+자 바 5.0에서 소개되는 기법 중에서 가변인수(Varargs)라는 것이 있다. 
+가변인수라는 것은 필요에 따라 매개변수(인수)를 가변적으로 조정할 수 있는 기술이다. 
+가변인수가 없던 시절에는 가변인수 대신 컬렉션이나 배열을 이용해서 가변인수를 대체하고 있었다.
+<script src="https://gist.github.com/alalstjr/6589fc7f8dacb80a3f0021942d6feb50.js"></script>
 
 ## 참고자료
 
 속성의 개념 https://ko.wikipedia.org/wiki/%EC%86%8D%EC%84%B1_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)
 메소드의 개념 http://tcpschool.com/java/java_methodConstructor_method
 Java 인자 전달 방식 http://mussebio.blogspot.com/2012/05/java-call-by-valuereference.html
+가변형 매개변수 https://gyrfalcon.tistory.com/entry/Java-Varargs [Minsub's Blog]

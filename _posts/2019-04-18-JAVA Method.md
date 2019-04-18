@@ -28,13 +28,13 @@ method(동작)은 어떠한 특정 작업을 수행하기 위한 명령문의 �
 
 메서드나 함수의 인자 전달을 설명 할 때 항상 등장하는 단어 parameter와 argument
 두 단어 모두 인자를 표현하는 단어지만 구분해서 쓰자면 formal-parameter(형식인자)와 actual-parameter(실인자)
-
-
+<script src="https://gist.github.com/alalstjr/47636e903c4d69c925f236fcd2d3b9a9.js"></script>
 
 1. 값에 의한 호출(Call By Value) - 데이터 복사(깊은 복사)
 <script src="https://gist.github.com/alalstjr/a0d05b0d778d8632ab0cde49f137681c.js"></script>
 
 2. 주소값에 의한 호출(Call By Reference) - 데이터 참조
+<script src="https://gist.github.com/alalstjr/9f5bd9e56b7dcd5d02a95784adc2bc0b.js"></script>
 
 
 ## 참고자료

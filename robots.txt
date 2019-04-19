@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://alalstjr.github.io/promote.github.io/sitemap.xml
+Sitemap: https://alalstjr.github.io/jjunpro.github.io/sitemap.xml

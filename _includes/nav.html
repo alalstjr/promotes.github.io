@@ -35,6 +35,13 @@
                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			{% assign tags_list = site.tags %}  
+			  {% if tags_list.first[0] == null %}
+			    {% for tag in tags_list %} 
+				<span>{{ site.tags[tag].size }}</span>
+			    {% endfor %}
+			  {% endif %}
+			{% assign tags_list = nil %}
                 </li>
                 {% endif %}{% endif %}{% endfor %}
             </ul>

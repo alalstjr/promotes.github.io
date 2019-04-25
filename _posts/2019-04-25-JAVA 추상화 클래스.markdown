@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      JAVA 추상화 클래스
+author:     쭌프로
+tags:       JAVA
+subtitle:   JAVA 추상화 클래스 정리노트
+category:   JAVA
+---
+
+<!-- Start Writing Below in Markdown -->
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
+
+# 추상화
+
+## 객체에서 공통된 속성과 행위를 추출하는 것
+     
+Shape
+  - draw(); -> abstract
+  - delete(); -> abstract
+  - doAll();
+
+------
+Circle
+  - draw(){};
+  - delete(){};
+  
+Triangle
+  - draw(){};
+  - delete(){};
+  
+Rectangle
+  - draw(){};
+  - delete(){};
+------
+
+## JAVA 에서의 추상화
+
+추상 클래스를 활용 (1개 이상의 추상메소드)
+인터페이스를 활용 (모두가 추상 멤버)
+
+### 추상 클래스 (abstract class)
+
+1. abstract method(미완성 메소드)를 포함하고 있는 클래스
+  - abstract method 선언부만 있고 구현부가 없는 메소드
+  
+2. 추상클래스는 인스턴스를 생성할 수 없다.
+
+3. 추상클래스를 상속받는 자식클래스에서 abstract method를 완성해야 함
+
+4. 코드의 공통적인 부분을 제시하고 표준화하기 위한 용도로 활용됨
+
+<script src="https://gist.github.com/alalstjr/3edce614b5822283e474e4a155e6dfb3.js"></script>
+

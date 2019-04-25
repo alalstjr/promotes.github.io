@@ -29,6 +29,19 @@
                 </li>
                 {% endif %}{% endif %}{% endfor %}
             </ul>
+		
+{% assign tags_list = site.tags %}  
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %} 
+      <a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %} 
+      <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+		
         </div>
         <!-- /.navbar-collapse -->
     </div>

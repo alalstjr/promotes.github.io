@@ -28,20 +28,7 @@
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endif %}{% endif %}{% endfor %}
-            </ul>
-		
-{% assign tags_list = site.tags %}  
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %} 
-      <span>{{ site.tags[tag].size }}</span>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %} 
-      <span>{{ tag[1].size }}</span>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
-		
+            </ul>	
         </div>
         <!-- /.navbar-collapse -->
     </div>

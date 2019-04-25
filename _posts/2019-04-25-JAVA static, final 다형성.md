@@ -8,6 +8,8 @@ category:   JAVA
 ---
 <!-- Start Writing Below in Markdown -->
 
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
+
 # static 
 
 정지의 상태, 고정적인, 변화가 없는

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "JavaScript"
-description: "쭌프로의 JavaScript 노트"
+description: "JavaScript ReactJS NodeJS"
 header-img: "img/home-bg.jpg"
 category: JavaScript
 ---

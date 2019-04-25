@@ -33,11 +33,11 @@
 {% assign tags_list = site.tags %}  
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
-      <a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
+      <span>{{ site.tags[tag].size }}</span>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-      <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a>
+      <span>{{ tag[1].size }}</span>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}

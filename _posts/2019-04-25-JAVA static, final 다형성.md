@@ -23,6 +23,11 @@ static method(정적 메소드)
 프로그램이 실행되면 메모리(클래스 영역)에 자동으로 로딩됨
 프로그램이 끝날 때까지 메모리에 상주함
 <b>static method 에서는 static member 만 사용 가능함</b>
+<script src="https://gist.github.com/alalstjr/847f5a20446721d391503e6c5b1049ee.js"></script>
+
+단하나의 static 변수만 존재가능합니다.
+그러므로 new 를 통해서 객체를 아무라 생산해도 
+static 변수는 단 하나만 변경없이 고정으로 존재합니다.
 
 ## dynamic member의 특성
 

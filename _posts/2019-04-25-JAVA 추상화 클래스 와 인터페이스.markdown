@@ -95,6 +95,8 @@ A(class) => B(interface) => C(interface를 구현하는 클래스)
 
 <script src="https://gist.github.com/alalstjr/bebca2b72afd215ac148e9ab23ba35f9.js"></script>
 
+위 예제에서 사용한 applet 은 이제 보안상 사용을 안하도록 되어있습니다.
 
-https://m.blog.naver.com/PostView.nhn?blogId=dkelf88&logNo=150046969961&proxyReferer=https%3A%2F%2Fwww.google.com%2F
-자바에서 관계 정리
+# 참고자료 
+<a href="https://m.blog.naver.com/PostView.nhn?blogId=dkelf88&logNo=150046969961&proxyReferer=https%3A%2F%2Fwww.google.com%2F">
+자바에서 관계 정리</a>

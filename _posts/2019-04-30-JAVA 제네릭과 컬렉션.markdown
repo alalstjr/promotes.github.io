@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      JAVA 제네릭과 컬렉션
+author:     쭌프로
+tags:       JAVA
+subtitle:   JAVA 제네릭과 컬렉션 정리노트
+category:   JAVA
+---
+
+<!-- Start Writing Below in Markdown -->
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
+
+# 일반화(Generic)
+
+다양한 자료형의 데이터를 처리하기 위해서 일반화(Generic) 작업이 필요함
+
+## 오버라이딩 형변환 예제
+
+<script src="https://gist.github.com/alalstjr/a4588ae60473198be716d0d10f628f0b.js"></script>
+
+<p>
+   int 형만을 받는 getValue 메소드 입니다. <br/>
+   그러므로 문자열인 "100" 을 출력할 수 없습니다. <br/>
+   <br/>
+   이 문제를 해결하기 위해서 방법은 여러가지가 있습니다. <br/>
+   첫번째 오버로딩 을 활용하여  <br/>
+   <br/>
+   private String value; <br/>
+   <br/>
+   public int setValue(String value) { <br/>
+     this.value = value; <br/>
+   } <br/>
+   <br/>
+   문자열을 출력하도록 할 수 있습니다. <br/>
+   하지만 받아야 하는 변수의 형도 String value 로 바꿔줘야하는  <br/>
+   비효율적인 부분이 있습니다.
+</p>
+
+## 오브젝트 형변환 예제
+
+<script src="https://gist.github.com/alalstjr/ac62314d07589b95f63167c7da284508.js"></script>
+
+<p>
+  값이 저장되고 출력될때마다 형변환이 매번 일어나는것을 <br/>
+  주석을 표기한곳을 보면 알 수 있습니다. <br/>
+  너무 많은 계산이 실행되기에  <br/>
+  이 방법또한 비 효율 적이라 할 수 있습니다.
+</p>

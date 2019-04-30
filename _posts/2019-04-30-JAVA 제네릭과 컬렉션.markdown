@@ -48,8 +48,12 @@ category:   JAVA
   이 방법또한 비효율 적이라 할 수 있습니다.
 </p>
 
-## 제네릭 형벼환 예제
+## 제네릭 형변환 예제
 
 <script src="https://gist.github.com/alalstjr/8a4e2116f9726072b86decec5cc90f87.js"></script>
+
+# 좀더 자세하게 알고싶다면?
+
+직접 검색해보고 최고의 설명이다! 라고 생각드는 블로그 주소를 정리해 두었습니다.
 
 <a href="https://hyeonstorage.tistory.com/185">오버로딩(Overloading) 오버라이딩(Overriding) [개발이 하고 싶어요]</a>

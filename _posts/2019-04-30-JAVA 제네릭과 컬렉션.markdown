@@ -56,4 +56,5 @@ category:   JAVA
 
 직접 검색해보고 최고의 설명이다! 라고 생각드는 블로그 주소를 정리해 두었습니다.
 
-<a href="https://hyeonstorage.tistory.com/185">오버로딩(Overloading) 오버라이딩(Overriding) [개발이 하고 싶어요]</a>
+<a href="https://hyeonstorage.tistory.com/185">오버로딩(Overloading) 오버라이딩(Overriding) [개발이 하고 싶어요]</a> <br/>
+<a href="https://ac989832.tistory.com/49">제네릭을 알아보자</a>

@@ -44,9 +44,12 @@ category:   JAVA
 <p>
   값이 저장되고 출력될때마다 형변환이 매번 일어나는것을 <br/>
   주석을 표기한곳을 보면 알 수 있습니다. <br/>
-  너무 많은 계산이 실행되기에  <br/>
-  이 방법또한 비 효율 적이라 할 수 있습니다.
+  너무 많은 계산이 실행되기에 <br/>
+  이 방법또한 비효율 적이라 할 수 있습니다.
 </p>
 
+## 제네릭 형벼환 예제
+
+<script src="https://gist.github.com/alalstjr/8a4e2116f9726072b86decec5cc90f87.js"></script>
 
 <a href="https://hyeonstorage.tistory.com/185">오버로딩(Overloading) 오버라이딩(Overriding) [개발이 하고 싶어요]</a>

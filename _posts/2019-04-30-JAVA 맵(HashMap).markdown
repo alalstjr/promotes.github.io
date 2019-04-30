@@ -32,8 +32,10 @@ category:   JAVA
 
 <script src="https://gist.github.com/alalstjr/2eb79baaf9d9f811dcc1813a189da76e.js"></script>
 
-System.out.println(map);
-결과값 {미국=워싱턴, 일본=동경, 영국=런던, 중국=북경, 한국=서울} 결과가 순서대로가 아닙니다.
-HashMap은 빠르게 찾는것이 목적만을 가지고 있기때문에 순서대로 출력하지 않습니다.
-순서대로 출력을 원한다면 ArrayList 를 사용해야 합니다.
+<p>
+  System.out.println(map); <br/>
+  결과값 {미국=워싱턴, 일본=동경, 영국=런던, 중국=북경, 한국=서울} 결과가 순서대로가 아닙니다. <br/>
+  HashMap은 빠르게 찾는것이 목적만을 가지고 있기때문에 순서대로 출력하지 않습니다. <br/>
+  순서대로 출력을 원한다면 ArrayList 를 사용해야 합니다.
+</p>
 

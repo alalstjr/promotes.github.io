@@ -79,7 +79,7 @@ category:   JAVA
 
 # 컬렉션의 종류
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-04-30-1.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-04-30-1.jpg)
 
 ## Set 계열
 

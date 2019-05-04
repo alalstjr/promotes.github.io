@@ -93,3 +93,7 @@ if (val == null || val.equals("")) { <br/>
    %> <html> <head><title>오류</title></head> <body> 잘못된 파라미터를 입력하셨습니다. <p> 파라미터 "val"의 값은 없거나 "a"이어야 합니다. </body> </html> <% <br/>
 } <br/>
 %>
+
+# 출처
+
+<a href="http://bamtol.net/v5/bbs/board.php?bo_table=pp_server&wr_id=9">밤톨 넷 JSP 기본 내장객체 모음</a>

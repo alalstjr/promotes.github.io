@@ -37,3 +37,31 @@ category:   JAVA
 | 404 | Not Found | 클라이언트가 요청한 리소스가 서버에 없음 |
 | 500 | Internal Server Error | 서버에서 클라이언트 요청을 처리 중에 에러가 발생함 |
 | 503 | Service Unavailable | * 서버가 일시적으로 요청을 처리할 수 없음 * 서버가 과부하 상태이거나 정검중이므로 요청을 처리할 수 없는 상태 |
+
+# 에러처리 예제
+
+<script src="https://gist.github.com/alalstjr/8412f5dedb36952f588a48be276f7777.js"></script>
+
+WebContent -> error -> error.jsp
+
+실행하면 num 값이 존재하지 않기 때문에 에러 페이지가 표시됩니다.
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-07-1.png)
+
+사용자에게 불피요한 정보가 출력함과 동시에 보안상 위험하기 때문에 
+사용자에게는 안내문이 출력될 수 있도록 해야합니다.
+
+## xml error page 코드 추가
+
+<script src="https://gist.github.com/alalstjr/89ae36995c3c54f9ff6a5b0df80d0440.js"></script>
+
+각각 상황에 맞는 코드에 따라서 에러 표시 페이지를 연결하면 됩니다.
+
+## error view page 생성
+
+<script src="https://gist.github.com/alalstjr/b4e317def9682c21290276949baa08d2.js"></script>
+
+사용자에게 보여지는 페이지를 생성 하였습니다.
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-07-2.png)
+

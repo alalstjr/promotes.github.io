@@ -1,0 +1,33 @@
+# 테이블 생성
+
+create table [테이블명](id int,name varchar(20));
+
+# 컬럼 추가
+
+alter table [테이블명] add [컬럼명] [타입] [옵션]; 
+
+ex) alter table [테이블명] add [컬럼명] varchar(100) not null default '0'; 
+
+# 컬럼 삭제
+
+alter table [테이블명] drop [컬럼명];
+
+# 컬럼명 변경 및 타입 변경
+
+alter table [테이블명] change [컬럼명] [변경할컬럼명] varchar(12);
+
+# 컬럼 타입 수정
+
+alter table [테이블명] modify [컬럼명] varchar(14);
+
+# 테이블명 수정
+
+alter table [테이블명] rename [변경할테이블명];
+
+# 테이블 삭제
+
+drop table [테이블명];
+
+# 참고자료
+
+<a href="https://mcpaint.tistory.com/194">출처: [MC빼인트와 함께]</a>

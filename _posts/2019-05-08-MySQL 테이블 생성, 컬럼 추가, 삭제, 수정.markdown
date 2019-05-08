@@ -1,3 +1,7 @@
+# 테이블 속성 확인
+
+desc [테이블명];
+
 # 테이블 생성
 
 create table [테이블명](id int,name varchar(20));

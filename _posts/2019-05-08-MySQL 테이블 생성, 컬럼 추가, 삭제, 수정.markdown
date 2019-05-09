@@ -32,6 +32,12 @@ alter table [테이블명] rename [변경할테이블명];
 
 drop table [테이블명];
 
+# ---------------------
+
+# 테이블 속 데이터 전체 삭제
+
+Truncate [];
+
 # 참고자료
 
 <a href="https://mcpaint.tistory.com/194">출처: [MC빼인트와 함께]</a>

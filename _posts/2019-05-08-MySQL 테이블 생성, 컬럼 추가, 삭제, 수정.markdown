@@ -53,6 +53,6 @@ Truncate [];
 
 # 참고자료
 
-<a href="https://mcpaint.tistory.com/194">출처: [MC빼인트와 함께]</a>
-<a href="https://yonoo88.tistory.com/41">mysql 추가</a>
+<a href="https://mcpaint.tistory.com/194">출처: [MC빼인트와 함께]</a> <br/>
+<a href="https://yonoo88.tistory.com/41">mysql 추가</a> <br/>
 <a href="http://wego21.com/bbs/board.php?bo_table=mysql&wr_id=2">테이블 속성및 구조 변경방법</a>

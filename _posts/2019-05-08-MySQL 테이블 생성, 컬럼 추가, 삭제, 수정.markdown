@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      MySQL 테이블 생성, 컬럼 추가, 삭제, 수정
+author:     쭌프로
+tags:       JAVA MySQL
+subtitle:   JAVA 멀티스레드 정리노트
+category:   JAVA
+---
+
+<!-- Start Writing Below in Markdown -->
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
+
 # 테이블 속성 확인
 
 desc [테이블명];

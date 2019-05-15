@@ -45,6 +45,12 @@ lexer 검색도중 형태가 없는 토큰이 매칭되면 true 를 반환합니
 
 Token의 객체 상태(State)와 필드(field)를 작성합니다.
 
+Token의 객체와 타입을 정의하였으니 이제 Lexer를 작성해보겠습니다.
+
+# Class Lexer 생성
+
+<script src="https://gist.github.com/alalstjr/fbaa620b2d87d8a141f05c830131930a.js"></script>
+
 # 참고자료
 
 <a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a>

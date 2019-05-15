@@ -39,6 +39,12 @@ TokenType 에는 두가지 형태로 토큰을 나누었습니다.
 isAuxiliary() 메서드로 토큰의 형태를 확인합니다. <br/>
 lexer 검색도중 형태가 없는 토큰이 매칭되면 true 를 반환합니다.
 
+# Token 객체생성
+
+<script src="https://gist.github.com/alalstjr/8ad3cd9486fac6561274e8745bb9e596.js"></script>
+
+Token의 객체 상태(State)와 필드(field)를 작성합니다.
+
 # 참고자료
 
 <a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a>

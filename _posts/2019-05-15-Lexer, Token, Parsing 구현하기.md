@@ -47,11 +47,53 @@ Token의 객체 상태(State)와 필드(field)를 작성합니다.
 
 Token의 객체와 타입을 정의하였으니 이제 Lexer를 작성해보겠습니다.
 
+# Class AnalyzerException 
+
+개발자가 원하지 않는 방향으로 진행되는경우 예외처리하는 Class를 생성합니다.
+
+<script src="https://gist.github.com/alalstjr/a70408c2a236c12b6ccb29fb04468f52.js"></script>
+
 # Class Lexer 생성
 
 <script src="https://gist.github.com/alalstjr/fbaa620b2d87d8a141f05c830131930a.js"></script>
 
+입력된 Code를 분석하는 정규식데이터를 저장할 공간과 결과를 저장하는 Token List를 만들어줍니다.
+각각 TreeMap, ArrayList 인스턴스합니다.
+
+그후 launchRegEx() 메서드를 실행 함으로서 regEx 정규식 조건을 추가합니다.
+
+tokenize 입력된 소스를 토큰화하는 메서드입니다.
+
+입력된 소스를 regEx 정규식 검사를 하며 하나씩 토큰을 찾아 저장하도록 진행합니다.
+만약 regEx 리스트에 맞지않는 정보가 있을경우 예외처리를 하여 AnalyzerException 로 넘어갑니다.
+
+정규식비교 처리는 separateToken() 메서드에서 처리합니다. <br/>
+Pattern, Matcher 를 사용하여 Token에 결과값을 저장하여 반환합니다.
+
+결과 값은 두가지 경로에 저장이 됩니다.
+
+하나는 모든 결과값을 저장하는 getTokens() <br/>
+형태가없는 토큰은 제외한 getFilteredTokens() 
+
+
+
 # 참고자료
 
-<a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a>
+## java enum 이란?
+
+<a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a><br/>
 <a href="https://mainpower4309.tistory.com/15">[자바/JAVA 개발] 자바 Enum 클래스란??</a>
+
+## 정규식
+
+<a href="https://hamait.tistory.com/342">정규표현식 (Regex) 정리</a> <br/>
+<a href="https://hermeslog.tistory.com/310">[정규식] Java에서의 정규식 정리</a>
+
+- 정규식 해석기
+    https://regexper.com/
+
+- 자바 정규식 기본정리 : Matcher, Pattern, find(), group()
+    https://m.blog.naver.com/bb_/220863282423
+
+- 특정문자 포함
+    https://okky.kr/article/324090

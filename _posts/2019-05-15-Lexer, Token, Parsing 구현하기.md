@@ -75,7 +75,28 @@ Pattern, Matcher 를 사용하여 Token에 결과값을 저장하여 반환합�
 하나는 모든 결과값을 저장하는 getTokens() <br/>
 형태가없는 토큰은 제외한 getFilteredTokens() 
 
+# 실행 결과
 
+<script src="https://gist.github.com/alalstjr/a897224d959f4e4d71c0a0bb7803de25.js"></script>
+
+모든 Token을 저장한것과 <br/>
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-16-1.png)
+
+형태가없는 것은 제외한 Token을 각각 출력해 보았습니다.<br/>
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-16-2.png)
+
+정상 출력되는것을 확인하였습니다.
+
+만약 등록되지않은 TokenType 입력된경우 
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-16-3.png)
+
+String sourceCode = "void java"; 가 입력된경우 
+
+제가 정의한 정규식 패턴규칙은 'String' 으로 둘러싸있는 경우에만 문자열로 인식한다고 등록해 놨기때문에
+예외처리되어 오류를 출력합니다.
 
 # 참고자료
 

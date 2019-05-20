@@ -74,8 +74,18 @@ View
 list.do => MemoController.java => MemoDAO.java = > 메모리스트 리턴 =>
 request객체에 저장 => memo_list.jsp로 포워딩
 
+# mySql table 생성
+
+CREATE TABLE memo (
+  num varchar(50) not null primary key,
+  writer varchar(50) not null,
+  memo varchar(4000) not null,
+  post_date DATETIME DEFAULT CURRENT_TIMESTAMP
+);
 
 # 참고자료
 
 <a href="https://hyeonstorage.tistory.com/278">sqlMapConfig 코드</a>
 <a href="https://hunit.tistory.com/200">sqlMapConfig-mysql 코드</a>
+<a href="https://0taeng.tistory.com/26">[Oracle] CHAR, VARCHAR, VARCHAR2 [개발자 령탱]</a>
+<a href="https://jsonobject.tistory.com/122">mysql date 기본값 설정</a>

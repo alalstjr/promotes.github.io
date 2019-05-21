@@ -95,6 +95,28 @@ src/sqlmap/MyBatisManager.xml 생성
 # memo.jsp 생성
 
 
+# Memo DTO, DAO 생성
+
+src/memo/dao/MemoDTO.java 생성
+
+
+src/memo/dao/MemoDAO.java 생성
+
+
+# 쿼리 실행소 memo.xml 생성
+
+src/memo/mapper/memo.xml 생성
+
+
+memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일해야 합니다.
+
+# MemoController 생성
+
+
+
+# memo_list 생성
+
+
 
 # 참고자료
 

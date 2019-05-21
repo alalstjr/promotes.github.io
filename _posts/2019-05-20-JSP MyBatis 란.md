@@ -117,6 +117,25 @@ memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일�
 # memo_list 생성
 
 
+# 특정 상황
+
+input에 태그를 입력하면 해당 태그의 효과가 적용됩니다.
+
+## 문제
+
+<font color="red">Hello</font> <br/>
+<xmp> : 태그 입력시 html소스를 해석하지 않고 그대로 출력 
+  
+## 해결책
+
+DAO에서 문자 변환 처리를 해서 값을 넘깁니다.
+
+태그 문자를 변환해야 함 <br/>
+< = &lt; <br/>
+> = &gt; <br/>
+공백문자 처리 
+스페이스 = &nbsp;
+
 
 # 참고자료
 

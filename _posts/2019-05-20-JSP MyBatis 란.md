@@ -124,3 +124,9 @@ memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일�
 <a href="https://hunit.tistory.com/200">sqlMapConfig-mysql 코드</a>
 <a href="https://0taeng.tistory.com/26">[Oracle] CHAR, VARCHAR, VARCHAR2 [개발자 령탱]</a>
 <a href="https://jsonobject.tistory.com/122">mysql date 기본값 설정</a>
+
+<a href="https://all-record.tistory.com/104">JSP에서 DB연동 하기 - JNDI, DBCP(커넥션풀) 이용</a>
+<a href="http://faq.hostway.co.kr/Linux_DB/7421">데이터 타입/MYSQL DATE</a>
+
+<a href="https://zetawiki.com/wiki/MySQL_%EC%BB%AC%EB%9F%BC%EB%AA%85_%EB%B3%80%EA%B2%BD,_%EC%BB%AC%EB%9F%BC_%EC%9E%90%EB%A3%8C%ED%98%95_%EB%B3%80%EA%B2%BD">mysql 데이블 속성 변경</a>
+<a href="http://blog.naver.com/PostView.nhn?blogId=imf4&logNo=220762181574">mysql 1씩 증가</a>

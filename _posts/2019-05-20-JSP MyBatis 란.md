@@ -77,11 +77,24 @@ request객체에 저장 => memo_list.jsp로 포워딩
 # mySql table 생성
 
 CREATE TABLE memo (
-  num varchar(50) not null primary key,
+  num int not null primary key,
   writer varchar(50) not null,
   memo varchar(4000) not null,
   post_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+# MyBatis 초기 설정
+
+src/sqlmap/sqlMapConfig.xml 생성
+
+
+
+src/sqlmap/MyBatisManager.xml 생성
+
+
+# memo.jsp 생성
+
+
 
 # 참고자료
 

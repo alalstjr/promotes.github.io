@@ -130,3 +130,4 @@ memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일�
 
 <a href="https://zetawiki.com/wiki/MySQL_%EC%BB%AC%EB%9F%BC%EB%AA%85_%EB%B3%80%EA%B2%BD,_%EC%BB%AC%EB%9F%BC_%EC%9E%90%EB%A3%8C%ED%98%95_%EB%B3%80%EA%B2%BD">mysql 데이블 속성 변경</a>
 <a href="http://blog.naver.com/PostView.nhn?blogId=imf4&logNo=220762181574">mysql 1씩 증가</a>
+<a href="https://recoveryman.tistory.com/126">데이터 칼럼 구조</a>

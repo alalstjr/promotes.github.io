@@ -110,6 +110,10 @@ Reader클래스를 이용해서읽어 들이겠다는 코드입니다.
 
 # View Page memo.jsp 생성
 
+WebContent/include/header.jsp
+
+<script src="https://gist.github.com/alalstjr/51761a719a12fc7dedf6067290c561ea.js"></script>
+
 WebContent/page/memo.jsp
 
 <script src="https://gist.github.com/alalstjr/bd7802efaa6981088c7a6b5908754c78.js"></script>

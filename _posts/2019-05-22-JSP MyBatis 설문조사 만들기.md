@@ -44,6 +44,11 @@ where survey_num = 2
 group by survey_num, num
 order by num;
 
+
+# 실습코드예제
+
+<a href="https://github.com/alalstjr/Java-study/tree/master/190520-MyBatis%ED%99%9C%EC%9A%A9%20%EB%A9%94%EB%AA%A8%EC%9E%91%EC%84%B1%20%EC%98%88%EC%A0%9C%20%EC%BD%94%EB%93%9C">Java 코드 저장소</a>
+
 # 참고자료
 
 ## MySQL

@@ -9,7 +9,7 @@ category:   JAVA
 
 <!-- Start Writing Below in Markdown -->
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-22-3.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-22-3.jpg)
 
 # MyBatis
 

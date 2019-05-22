@@ -9,7 +9,7 @@ category:   JAVA
 
 <!-- Start Writing Below in Markdown -->
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-22-3.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-22-3.png)
 
 # MyBatis
 
@@ -73,6 +73,10 @@ View
   
 list.do => MemoController.java => MemoDAO.java = > 메모리스트 리턴 =>
 request객체에 저장 => memo_list.jsp로 포워딩
+
+# 세션 실습예제
+
+<a href="https://github.com/alalstjr/Java-study/tree/master/190520-MyBatis%ED%99%9C%EC%9A%A9%20%EB%A9%94%EB%AA%A8%EC%9E%91%EC%84%B1%20%EC%98%88%EC%A0%9C%20%EC%BD%94%EB%93%9C">Java 코드 저장소</a>
 
 # mySql memo table 생성
 

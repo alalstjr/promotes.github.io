@@ -31,15 +31,20 @@ CREATE TABLE survey_result (
 &nbsp;&nbsp;&nbsp; num INT NOT NULL
 );
 
-## 응답 결과 백분율 SQL
+## 응답 결과 백분율 SQL View 테이블 만들어 활용하기
 
 create view survey_v as
 select survey_num, num, count(*) sum_num,
 	round((select count(*) from survey_result
 		where survey_num = s.survey_num and num = s.num) * 100.0 /
 		(select count(*) from survey_result
-		where survey_num - s.survey_num), 1) rate
+		where survey_num = s.survey_num), 1) rate
 from survey_result s
 where survey_num = 2
 group by survey_num, num
 order by num;
+
+# 참고자료
+
+## MySQL
+<a href="https://m.blog.naver.com/PostView.nhn?blogId=seilius&logNo=130165456506&proxyReferer=https%3A%2F%2Fwww.google.com%2F">[MySQL] View 테이블 만들기 </a>

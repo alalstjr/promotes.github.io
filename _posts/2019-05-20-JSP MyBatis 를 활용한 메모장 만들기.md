@@ -83,7 +83,7 @@ CREATE TABLE memo ( <br/>
 &nbsp;&nbsp;post_date DATETIME DEFAULT CURRENT_TIMESTAMP <br/>
 );
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-22-1.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-22-1.png)
 
 메모 테이블의 num 값은 고유 값으로 지정하면서 게시글 작성시 자동으로 숫자가 카운트업 하도록 설정하였습니다. <br/>
 메모작성시 자동으로 시간이 저장되도록 초기값을 CURRENT_TIMESTAMP 설정하였습니다.
@@ -128,7 +128,7 @@ WebContent/page/memo_view.jsp
 
 부트스트랩 공부할겸 활용하여 조금 보기 좋게 꾸며 보았습니다.
 
-![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-22-2.png)
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019/05/2019-05-22-2.png)
 
 # Memo DTO, DAO 생성
 

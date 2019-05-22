@@ -104,7 +104,7 @@ src/sqlmap/MyBatisManager.xml 생성
 고정된 메모리 영역을 얻으면서 한번의 new로 인스턴스를 사용하기 때문에 메모리 낭비를 방지할 수 있음
 
 String resource = "sqlmap/sqlMapConfig.xml"; <br/>
-Resources.getResourceAsReader(resource); 코드를 해석하면 </br>
+Resources.getResourceAsReader(resource); 코드를 해석하면 <br/>
 Java Resources의 src디렉토리에서 sqlmap/sqlMapConfig.xml 파일을 <br/>
 Reader클래스를 이용해서읽어 들이겠다는 코드입니다.
 

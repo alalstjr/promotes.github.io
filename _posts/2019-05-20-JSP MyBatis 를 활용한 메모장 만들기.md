@@ -3,7 +3,7 @@ layout:     post
 title:      JSP MyBatis 란
 author:     쭌프로
 tags:       JAVA
-subtitle:   JSP MyBatis 필기노트
+subtitle:   JSP MyBatis를 활용한 메모장 구현하기
 category:   JAVA
 ---
 

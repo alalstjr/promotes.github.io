@@ -76,11 +76,11 @@ request객체에 저장 => memo_list.jsp로 포워딩
 
 # mySql memo table 생성
 
-CREATE TABLE memo (
-  num int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  writer VARCHAR(50) NOT NULL,
-  memo VARCHAR(4000) NOT NULL,
-  post_date DATETIME DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE memo ( <br/> 
+&nbsp;&nbsp;num int NOT NULL PRIMARY KEY AUTO_INCREMENT, <br/>
+&nbsp;&nbsp;writer VARCHAR(50) NOT NULL, <br/>
+&nbsp;&nbsp;memo VARCHAR(4000) NOT NULL, <br/>
+&nbsp;&nbsp;post_date DATETIME DEFAULT CURRENT_TIMESTAMP <br/>
 );
 
 ![Description](https://alalstjr.github.io/jjunpro.github.io/img/2019-05-22-1.png)
@@ -146,8 +146,8 @@ input에 태그를 입력하면 해당 태그의 효과가 적용됩니다.
 
 ## 문제
 
-<font color="red">Hello</font> <br/>
-<xmp> : 태그 입력시 html소스를 해석하지 않고 그대로 출력 
+&lt;font color="red"&gt;Hello&lt;/font&gt; <br/>
+&lt;xmp&gt; : 태그 입력시 html소스를 해석하지 않고 그대로 출력 
   
 ## 해결책
 

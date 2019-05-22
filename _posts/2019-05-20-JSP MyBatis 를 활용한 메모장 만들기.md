@@ -134,23 +134,11 @@ WebContent/page/memo_view.jsp
 
 src/memo/dao/MemoDTO.java 생성
 
+<script src="https://gist.github.com/alalstjr/44da010c2620e71a7618c1cda7deafcf.js"></script>
 
 src/memo/dao/MemoDAO.java 생성
 
-
-# 쿼리 실행소 memo.xml 생성
-
-src/memo/mapper/memo.xml 생성
-
-
-memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일해야 합니다.
-
-# MemoController 생성
-
-
-
-# memo_list 생성
-
+<script src="https://gist.github.com/alalstjr/9684521799d9db727f45b682a6752799.js"></script>
 
 # 특정 상황
 
@@ -171,6 +159,19 @@ DAO에서 문자 변환 처리를 해서 값을 넘깁니다.
 공백문자 처리 
 스페이스 = &nbsp;
 
+replace메서드를 활용하여 문자를 치환함
+
+# 쿼리 실행소 memo.xml 생성
+
+src/memo/mapper/memo.xml 생성
+
+<script src="https://gist.github.com/alalstjr/0c41cdcc2da06d942da99dfd92381ce9.js"></script>
+
+memo.xml 의 namespace 와 select id 값은 MemoDAO의 설정한 값과 동일해야 합니다.
+
+# MemoController 생성
+
+<script src="https://gist.github.com/alalstjr/c3e45a38f03a1aac4d92c7953f3d44b9.js"></script>
 
 # 참고자료
 

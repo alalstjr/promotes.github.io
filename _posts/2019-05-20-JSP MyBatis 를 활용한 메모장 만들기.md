@@ -110,8 +110,21 @@ Reader클래스를 이용해서읽어 들이겠다는 코드입니다.
 
 # View Page memo.jsp 생성
 
+WebContent/page/memo.jsp
+
 <script src="https://gist.github.com/alalstjr/bd7802efaa6981088c7a6b5908754c78.js"></script>
 
+WebContent/page/memo_list.jsp
+
+<script src="https://gist.github.com/alalstjr/63bb4bd25f6ec407b799840792908155.js"></script>
+
+WebContent/page/memo_view.jsp
+
+<script src="https://gist.github.com/alalstjr/debbb10898eb859af0a8518448e6dd99.js"></script>
+
+부트스트랩 공부할겸 활용하여 조금 보기 좋게 꾸며 보았습니다.
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg-2.png)
 
 # Memo DTO, DAO 생성
 
@@ -165,8 +178,15 @@ DAO에서 문자 변환 처리를 해서 값을 넘깁니다.
 ## 실글톤 패턴
 <a href="https://jeong-pro.tistory.com/86">싱글톤 패턴을 사용하는 이유</a>
 
+## 부트스트랩
+<a href="https://tworab.tistory.com/79">부트스트랩 테이블 꾸미기</a>
+<a href="https://www.codingfactory.net/10731">부트스트랩 버튼색성</a>
+
+## MySQL
 <a href="https://all-record.tistory.com/104">JSP에서 DB연동 하기 - JNDI, DBCP(커넥션풀) 이용</a>
 <a href="http://faq.hostway.co.kr/Linux_DB/7421">데이터 타입/MYSQL DATE</a>
+<a href="https://wansdream.net/entry/MySQL-CONCAT-%ED%95%A8%EC%88%98%EB%A1%9C-2%EA%B0%9C-%EC%9D%B4%EC%83%81%EC%9D%98-%ED%95%84%EB%93%9C%EC%BB%AC%EB%9F%BC-%EA%B2%B0%ED%95%A9%ED%95%98%EA%B8%B0">MySQL CONCAT 함수로 2개 이상의 필드(컬럼) 결합하기</a>
+<a href="https://webisfree.com/2014-01-28/[mysql]-%ED%95%84%EB%93%9C%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%EB%AC%B8%EC%9E%90-%ED%8F%AC%ED%95%A8-%EB%98%90%EB%8A%94-%EC%A0%9C%EC%99%B8%ED%95%9C-db-%EA%B2%80%EC%83%89-like-not">필드에서 특정문자 포함 또는 제외한 DB 검색, LIKE ,NOT</a>
 
 <a href="https://zetawiki.com/wiki/MySQL_%EC%BB%AC%EB%9F%BC%EB%AA%85_%EB%B3%80%EA%B2%BD,_%EC%BB%AC%EB%9F%BC_%EC%9E%90%EB%A3%8C%ED%98%95_%EB%B3%80%EA%B2%BD">mysql 데이블 속성 변경</a>
 <a href="http://blog.naver.com/PostView.nhn?blogId=imf4&logNo=220762181574">mysql 1씩 증가</a>

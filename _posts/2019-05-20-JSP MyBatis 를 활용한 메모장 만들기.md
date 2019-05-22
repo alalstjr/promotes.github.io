@@ -74,25 +74,43 @@ View
 list.do => MemoController.java => MemoDAO.java = > 메모리스트 리턴 =>
 request객체에 저장 => memo_list.jsp로 포워딩
 
-# mySql table 생성
+# mySql memo table 생성
 
 CREATE TABLE memo (
-  num int not null primary key,
-  writer varchar(50) not null,
-  memo varchar(4000) not null,
+  num int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  writer VARCHAR(50) NOT NULL,
+  memo VARCHAR(4000) NOT NULL,
   post_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+![Description](https://alalstjr.github.io/jjunpro.github.io/img/java_bg.png)
+
+메모 테이블의 num 값은 고유 값으로 지정하면서 게시글 작성시 자동으로 숫자가 카운트업 하도록 설정하였습니다. <br/>
+메모작성시 자동으로 시간이 저장되도록 초기값을 CURRENT_TIMESTAMP 설정하였습니다.
 
 # MyBatis 초기 설정
 
 src/sqlmap/sqlMapConfig.xml 생성
 
-
+<script src="https://gist.github.com/alalstjr/ad60332846afe2c8524a0cebf3238732.js"></script>
 
 src/sqlmap/MyBatisManager.xml 생성
 
+<script src="https://gist.github.com/alalstjr/1077d815d296bddab3a91279c4820c1e.js"></script>
 
-# memo.jsp 생성
+## 싱글톤 패턴 사용
+
+애플리케이션이 시작될 때 어떤 클래스가 최초 한번만 메모리를 할당하고(Static) 그 메모리에 인스턴스를 만들어 사용하는 디자인패턴.
+고정된 메모리 영역을 얻으면서 한번의 new로 인스턴스를 사용하기 때문에 메모리 낭비를 방지할 수 있음
+
+String resource = "sqlmap/sqlMapConfig.xml"; <br/>
+Resources.getResourceAsReader(resource); 코드를 해석하면 </br>
+Java Resources의 src디렉토리에서 sqlmap/sqlMapConfig.xml 파일을 <br/>
+Reader클래스를 이용해서읽어 들이겠다는 코드입니다.
+
+# View Page memo.jsp 생성
+
+<script src="https://gist.github.com/alalstjr/bd7802efaa6981088c7a6b5908754c78.js"></script>
 
 
 # Memo DTO, DAO 생성
@@ -143,6 +161,9 @@ DAO에서 문자 변환 처리를 해서 값을 넘깁니다.
 <a href="https://hunit.tistory.com/200">sqlMapConfig-mysql 코드</a>
 <a href="https://0taeng.tistory.com/26">[Oracle] CHAR, VARCHAR, VARCHAR2 [개발자 령탱]</a>
 <a href="https://jsonobject.tistory.com/122">mysql date 기본값 설정</a>
+
+## 실글톤 패턴
+<a href="https://jeong-pro.tistory.com/86">싱글톤 패턴을 사용하는 이유</a>
 
 <a href="https://all-record.tistory.com/104">JSP에서 DB연동 하기 - JNDI, DBCP(커넥션풀) 이용</a>
 <a href="http://faq.hostway.co.kr/Linux_DB/7421">데이터 타입/MYSQL DATE</a>

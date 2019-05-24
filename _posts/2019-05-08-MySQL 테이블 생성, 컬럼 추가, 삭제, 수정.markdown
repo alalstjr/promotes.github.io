@@ -51,8 +51,40 @@ drop table [테이블명];
 
 Truncate [테이블명];
 
+# Procedure프로시저 만들기
+
+{% highlight matlab %}
+
+  delimiter $$
+  drop procedure if exists loop_test $$ // loop_test procedure 를 초기화
+  create procedure loop_test(in max int) // in 입력 매개변수
+  begin
+    declare cnt int default 0;
+    my_while:while (cnt < max) do
+      set cnt = cnt + 1;
+      insert into memo (writer, memo) values (cnt, concat('name', cnt));
+    end while;
+
+    select '완료되었습니다.';
+
+  end $$
+  delimiter;
+
+  delete from {table};
+  Call loop_test(900); // 등록한 프로시저를 실행하여 900데이터 등록
+  
+{% endhighlight %}
+
+delimiter $$ // 시작해서
+... 
+$$  // 끝난다.
+delimiter;
+
 # 참고자료
 
 <a href="https://mcpaint.tistory.com/194">출처: [MC빼인트와 함께]</a> <br/>
 <a href="https://yonoo88.tistory.com/41">mysql 추가</a> <br/>
 <a href="http://wego21.com/bbs/board.php?bo_table=mysql&wr_id=2">테이블 속성및 구조 변경방법</a>
+
+## procedure 활용
+<a href="https://recoveryman.tistory.com/186">프로시저 활용하기</a>

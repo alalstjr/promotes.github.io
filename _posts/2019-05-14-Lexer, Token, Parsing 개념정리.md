@@ -34,8 +34,7 @@ Token은 단어를 구조적으로 표현할 수 있게 도와주는 구조체�
 
 <a href="https://medium.com/teamnexters/koa%ED%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A3%BC%EA%B0%84-%EB%AF%B8%EC%85%98-2-938634d86921">
   새로운 Smart Contract 프로그래밍 언어 만들기 — Lexer
-</a> <br/>
-
+</a>
 <a href="https://medium.com/teamnexters/%EC%83%88%EB%A1%9C%EC%9A%B4-smart-contract-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-parser-579b319926d6">
   새로운 Smart Contract 프로그래밍 언어 만들기 — Parser
 </a>

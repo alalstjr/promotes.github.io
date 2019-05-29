@@ -102,12 +102,12 @@ String sourceCode = "void java"; 가 입력된경우
 
 ## java enum 이란?
 
-<a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a><br/>
+<a href="http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html">우아한 형제들 - Java Enum 활용기</a>
 <a href="https://mainpower4309.tistory.com/15">[자바/JAVA 개발] 자바 Enum 클래스란??</a>
 
 ## 정규식
 
-<a href="https://hamait.tistory.com/342">정규표현식 (Regex) 정리</a> <br/>
+<a href="https://hamait.tistory.com/342">정규표현식 (Regex) 정리</a>
 <a href="https://hermeslog.tistory.com/310">[정규식] Java에서의 정규식 정리</a>
 
 - 정규식 해석기
